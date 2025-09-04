@@ -31,9 +31,9 @@ def integer_calc():
     num_bits =len(binary)
 
     # set up answer and return it
-    answer = f"{integer} in binary is {binary}. we need {num_bits} to represent it."
+    answer = f"{integer} in binary is {binary}. we need {num_bits} bit to represent it."
 
     return answer
 # Main routine goes here
 integer_ans = integer_calc()
-print(integer_calc)
+print(integer_ans)
